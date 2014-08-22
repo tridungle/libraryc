@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AddBorrower</class>
+ <widget class="QDialog" name="AddBorrower">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>407</width>
+    <height>511</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Borrower</string>
+  </property>
+  <widget class="QPushButton" name="add_button">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>460</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Add</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="cancel_button">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>460</y>
+     <width>111</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_title">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>20</y>
+     <width>221</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>18</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>BORROWER FORM</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="name_text">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>211</x>
+     <y>130</y>
+     <width>125</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="type_combobox">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>190</y>
+     <width>79</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="department_combobox">
+   <property name="geometry">
+    <rect>
+     <x>211</x>
+     <y>240</y>
+     <width>79</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="phone_text">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>290</y>
+     <width>125</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="borrowItem_spin">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>211</x>
+     <y>340</y>
+     <width>47</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="returnItem_spin">
+   <property name="geometry">
+    <rect>
+     <x>211</x>
+     <y>400</y>
+     <width>47</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblBorrowedItems_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>347</y>
+     <width>158</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Previously Borrower Items</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblBorrowerPhoneNumber_2">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>295</y>
+     <width>90</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Phone Number</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblBorrowerType_2">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>190</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Type</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblBorrowerDepartment_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>242</y>
+     <width>73</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Department</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblBorrowerName_2">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>132</y>
+     <width>36</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Name</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lblReturnedItems_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>400</y>
+     <width>158</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Previously Returned Items</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>75</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Id:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="id_text">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>80</y>
+     <width>113</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
